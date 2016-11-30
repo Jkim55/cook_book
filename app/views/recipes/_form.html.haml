@@ -2,7 +2,7 @@
   - if @recipe.errors.any?
     #errors
       %p
-        = @recipe.errors.count
+        = pluralize(@recipe.errors.count, "error")
         Prevented this recipe from saving
       %ul
         - @recipe.errors.full_messages.each do |msg|
@@ -28,5 +28,5 @@
             = render 'direction_fields', f: direction
           .links
             = link_to_add_association 'Add Step', f, :directions, class: "btn btn-default add-button"
-            
+
   = f.button :submit, class: "btn btn-primary"
