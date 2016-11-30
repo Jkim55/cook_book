@@ -17,6 +17,8 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'paperclip'
 gem 'cocoon'
+gem 'devise'
+
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
