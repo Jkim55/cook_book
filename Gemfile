@@ -18,6 +18,7 @@ gem 'bootstrap-sass'
 gem 'paperclip'
 gem 'cocoon'
 gem 'devise'
+gem 'omniauth-facebook'
 
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
